@@ -1,0 +1,9 @@
+// Request a number and display all the divisors of it.
+
+const userNum = parseInt(prompt("enter first number:"));
+
+for (let i = 1; i <= userNum; i++) {
+  if (userNum % i === 0) {
+    console.log(i);
+  }
+}
